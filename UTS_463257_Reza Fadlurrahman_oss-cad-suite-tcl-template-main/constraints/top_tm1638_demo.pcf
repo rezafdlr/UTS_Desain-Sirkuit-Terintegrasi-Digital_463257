@@ -1,0 +1,9 @@
+# pengaturan koneksi antar pin
+
+#clock internal icesugar
+set_io clk 35   # osilator 12MHz
+
+#koneksi pin 
+set_io tm_cs 9   # koneksi ke STB 
+set_io tm_clk 4  # koneksi ke CLK 
+set_io tm_dio 2  # koneksi ke DIO 
